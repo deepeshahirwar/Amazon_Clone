@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    background-color: rgb(255, 255, 255);
+} 
+.navbar1{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    justify-content:space-around; 
+    /* background-color: blueviolet;  */
+    border-bottom: 2px solid black; 
+    /* margin-left: 100px; 
+    margin-right: 100px; */
+} 
+.container1{
+    display: flex;  
+    justify-content:space-around;  
+    margin-top: 20px; 
+    margin-right: 24rem;
+} 
+.container2{
+    display: flex;  
+    justify-content:space-between; 
+    margin-top: 20px;
+}  
+.text1 p{
+    margin-top: 5px;
+}
+.button1 button{
+    margin-left: 20px;  
+    height: 35px; 
+    width: 160px;
+    border-radius: none; 
+    border: none;  
+    background-color: #ee0290;
+    /* background-color: rgb(0, 120, 212);  */
+    font-size: medium; 
+    color: white; 
+    margin-bottom: 8px;
+}  
+.button1 button:hover{
+    border-bottom: 2px solid black;
+} 
+.link1{
+    margin-top: 9px; 
+}
+.link1 a{
+   font-size: 16px;
+    color: black;
+}  
+.navbar2{
+    display: flex;
+} 
+.container3 img {
+ height: 25px;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); 
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+} 
+.nav-links li a{ 
+    text-decoration: none; 
+    color: black; 
+    font-size: 15px;
+}  
+.container4{
+    margin-left: 295px;
+} 
+.nav-links{
+    margin-right: 190px;
+} 
+ 
+.navbar2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 12px;
+}
+.nav-links2{
+    list-style-type: none;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); 
+    margin-left: 20px;
+}  
+.nav-links2 i{
+height: auto;
+}
+.nav-links2 li {
+    margin-right: 20px;
+} 
+.nav-links2 li a{ 
+    text-decoration: none; 
+    color: black; 
+    font-size: 15px;
+}  
+ 
+/* vabvar end here */ 
+/* for hero section */  
+
+ .img2 { 
+   /* background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-Go-3-CONS-M001-1:VP5-1920x600) center center cover no-repeat fixed;   */
+
+background-image: url("micro_img1.webp");  
+ background-size: cover; 
+ background-repeat: no-repeat; 
+ background-position: center ; 
+ background-attachment: fixed;  
+ height: 30rem; 
+ width: 99%; 
+ margin-top: 25px; 
+ margin-left: 8px;
+}  
+.button2{
+    height: 30px; 
+    width: 50px; 
+    background-color: rgb(255, 186, 8); 
+    border: none; 
+    color: black;
+} 
+.button3{
+    height: 35px; 
+    width: 110px; 
+    font-size: medium; 
+    background-color: rgb(0, 120, 212); 
+    border: none; 
+    color: white; 
+    margin-top: 17px;
+} 
+.text3{
+    padding: 140px; 
+
+} 
+.text3 h2{
+    margin-top: 12px;
+} 
+.text3 p{
+margin-top: 15px;
+} 
+ 
+.container5{
+    display: flex; 
+    /* justify-content: center;  
+    align-items: center;  */
+    justify-content:space-evenly; 
+  margin-top: 80px;
+} 
+.container5 a{ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50rem;
+}

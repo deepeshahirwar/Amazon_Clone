@@ -5,16 +5,17 @@
 } 
 body {
     background-color: rgb(255, 255, 255);
-} 
+}  
+p{
+    line-height: 1.5rem;
+}
 .navbar1{
     display: flex; 
     justify-content: center; 
     align-items: center; 
     justify-content:space-around; 
-    /* background-color: blueviolet;  */
     border-bottom: 2px solid black; 
-    /* margin-left: 100px; 
-    margin-right: 100px; */
+   
 } 
 .container1{
     display: flex;  
@@ -36,8 +37,8 @@ body {
     width: 160px;
     border-radius: none; 
     border: none;  
-    background-color: #ee0290;
-    /* background-color: rgb(0, 120, 212);  */
+    /* background-color: #ee0290; */
+    background-color: rgb(0, 120, 212); 
     font-size: medium; 
     color: white; 
     margin-bottom: 8px;
@@ -143,20 +144,305 @@ background-image: url("micro_img1.webp");
 
 } 
 .text3 h2{
-    margin-top: 12px;
+    margin-top: 12px; 
+    font-size: 35px;
 } 
 .text3 p{
-margin-top: 15px;
+margin-top: 15px; 
+font-size: 18px;
 } 
- 
+  
+.box1{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;   
+    margin-bottom: 4rem;
+}
 .container5{
-    display: flex; 
-    /* justify-content: center;  
-    align-items: center;  */
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
     justify-content:space-evenly; 
   margin-top: 80px;
 } 
 .container5 a{ 
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50rem; 
+    color: rgb(0, 120, 212);
+} 
+.container5 div a{
+    margin-top: 50rem; 
+
+}  
+
+a{
+    color: rgb(0, 120, 212);  
+    font-size:18px; 
+}  
+/* card section start here  */
+.card a{
+    text-decoration: none; 
+    margin-top: 20rem; 
+    margin-left: 20px;
+} 
+.card a span{
+    color: rgb(0, 120, 212); 
+    font-size: 23px; 
+   
+} 
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    justify-content: space-between;
     margin-top: 50rem;
+    margin-left: 90px;
+    margin-right: 90px;
+
 }
+
+.grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px; 
+    height: 370px;
+    /* box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);*/
+    transition: 0.2s ease-in-out; 
+} 
+.image_container img{
+    width: 300px; 
+    max-height: 100%;   
+} 
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+}
+
+.card_content {
+    padding: 20px;
+}
+
+.card_content h2 {
+    margin-bottom: 10px;
+}  
+/* card section end here */ 
+/* full-image styling start here */ 
+.full_img { 
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP2-859x540");  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center ;  
+    background-attachment: fixed;  
+    height: 30rem; 
+    width: 88%; 
+    margin-top: 25px; 
+    margin-left: 6%;
+} 
+.img_text{
+    width: 600px; 
+    padding: 90px;
+} 
+.img_text h2{ 
+    font-size: 28px; 
+    font-family: Arial;
+} 
+.img_text p{
+    margin-top: 20px; 
+    font-size: 18px;  
+    color: black;
+} 
+.img_text button{ 
+   height: 35px; 
+    width: 180px; 
+    font-size: medium; 
+    background-color: rgb(0, 120, 212); 
+    border: none; 
+    color: white; 
+    margin-top: 25px;
+  
+} 
+.card_hadding h1{
+    margin-left: 6%; 
+    margin-top: 6rem; 
+    font-size: 35px; 
+    font-family: Arial;
+} 
+ 
+ 
+/* second  card section start here  */
+.card a{
+    text-decoration: none; 
+    margin-top: 20rem; 
+    margin-left: 20px;
+} 
+.card a span{
+    color: rgb(0, 120, 212); 
+    font-size: 23px; 
+   
+} 
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px; 
+    height: 400px;
+    transition: 0.2s ease-in-out; 
+} 
+.image_container img{
+    width: 300px; 
+    max-height: 100%;   
+} 
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+}
+
+.card_content {
+    padding: 20px;
+}
+
+.card_content h2 {
+    margin-bottom: 10px;
+}  
+/* second card section end here */  
+  
+/* background image3 styling start here */
+.full_img3 { 
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Microsoft-Responsible-AI:VP5-1596x600");  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center ;  
+    background-attachment: fixed;  
+    height: 30rem; 
+    width: 88%; 
+    margin-top: 5rem; 
+    margin-left: 6%; 
+    display: flex;
+}  
+ .box9{
+    width: 550px; 
+    height: 20rem; 
+    background-color: #fff; 
+    margin: 100px; 
+    margin-top: 100px;  
+    text-align: left;
+ } 
+ .box9 h2{
+    margin-top: 3rem; 
+    font-size: 28px; 
+ } 
+ .box9 p{
+    margin-top: 1.5rem; 
+    font-size: 18px; 
+ } 
+ .box9 button{
+    margin-top: 2rem;  
+    height: 35px; 
+    width: 22rem; 
+    font-size: medium; 
+    background-color: rgb(0, 120, 212); 
+    border: none; 
+    color: white; 
+ } 
+ .text4{
+    margin-left: 2.5rem;
+ } 
+ /* background image3 styling end here */ 
+  
+ 
+ .social{
+    display: flex; 
+    margin-left: 6%; 
+    margin-top: 7%;
+ } 
+ .social i{ 
+  margin-left: 2rem;
+   
+ } 
+ .social p{
+font-size: large; 
+
+ }   
+ /* for back button */
+ .back-button{
+   text-align: right; 
+   margin-right: 1rem;
+ }
+ .back-button button{
+    height: 30px; 
+    width: 8rem; 
+    font-size: medium; 
+    border: none; 
+    background-color: rgba(0, 0, 0, 0.214);  
+    color: black;
+ }  
+  
+ /* for footer */  
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+  background-color:rgb(242, 242, 242);  
+  color: white;  
+  height: 50px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 0.85rem;
+} 
+/* for  footer panel2 */ 
+.foot-panel2{  
+    margin-top: 3rem;
+    display: flex; 
+    justify-content:space-evenly ;
+    background-color:rgb(242, 242, 242); 
+    color: black; 
+    height: 500px; 
+}  
+.foot-panel2 p{
+    color: #1b1919b9; 
+    font-weight: 800; 
+    font-size: 18px;
+}  
+.foot-panel2 p:hover{
+    border-bottom:2px solid #1b1919b9 ;
+}
+.foot-panel2 ul{
+    margin-top: 40px;
+}
+.foot-panel2 ul a{
+    display: block; 
+    font-size: 0.85rem; 
+    margin-top: 10px; 
+    color:rgba(0, 0, 0, 0.643); 
+    line-height: 2rem;   
+} 
+.foot-panel2 ul a:hover{
+ border-bottom: thin solid rgba(0, 0, 0, 0.643);
+} 

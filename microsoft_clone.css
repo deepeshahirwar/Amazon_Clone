@@ -1,202 +1,232 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
 body {
     background-color: rgb(255, 255, 255);
-}  
-p{
+}
+
+p {
     line-height: 1.5rem;
 }
-.navbar1{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    justify-content:space-around; 
-    border-bottom: 2px solid black; 
-   
-} 
-.container1{
-    display: flex;  
-    justify-content:space-around;  
-    margin-top: 20px; 
-    margin-right: 24rem;
-} 
-.container2{
-    display: flex;  
-    justify-content:space-between; 
+
+.navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
     margin-top: 20px;
-}  
-.text1 p{
+    margin-right: 24rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text1 p {
     margin-top: 5px;
 }
-.button1 button{
-    margin-left: 20px;  
-    height: 35px; 
+
+.button1 button {
+    margin-left: 20px;
+    height: 35px;
     width: 160px;
-    border-radius: none; 
-    border: none;  
+    border-radius: none;
+    border: none;
     /* background-color: #ee0290; */
-    background-color: rgb(0, 120, 212); 
-    font-size: medium; 
-    color: white; 
+    background-color: rgb(0, 120, 212);
+    font-size: medium;
+    color: white;
     margin-bottom: 8px;
-}  
-.button1 button:hover{
+}
+
+.button1 button:hover {
     border-bottom: 2px solid black;
-} 
-.link1{
-    margin-top: 9px; 
 }
-.link1 a{
-   font-size: 16px;
+
+.link1 {
+    margin-top: 9px;
+}
+
+.link1 a {
+    font-size: 16px;
     color: black;
-}  
-.navbar2{
-    display: flex;
-} 
-.container3 img {
- height: 25px;
 }
+
+.navbar2 {
+    display: flex;
+}
+
+.container3 img {
+    height: 25px;
+}
+
 .nav-links {
     list-style-type: none;
     display: flex;
     transition: transform 0.3s ease-in-out;
-    transform: translateX(0); 
+    transform: translateX(0);
     margin-left: 20px;
 }
 
 .nav-links li {
     margin-right: 20px;
-} 
-.nav-links li a{ 
-    text-decoration: none; 
-    color: black; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
     font-size: 15px;
-}  
-.container4{
+}
+
+.container4 {
     margin-left: 295px;
-} 
-.nav-links{
+}
+
+.nav-links {
     margin-right: 190px;
-} 
- 
-.navbar2{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 12px;
 }
-.nav-links2{
+
+.nav-links2 {
     list-style-type: none;
     display: flex;
     transition: transform 0.3s ease-in-out;
-    transform: translateX(0); 
+    transform: translateX(0);
     margin-left: 20px;
-}  
-.nav-links2 i{
-height: auto;
 }
+
+.nav-links2 i {
+    height: auto;
+}
+
 .nav-links2 li {
     margin-right: 20px;
-} 
-.nav-links2 li a{ 
-    text-decoration: none; 
-    color: black; 
-    font-size: 15px;
-}  
- 
-/* vabvar end here */ 
-/* for hero section */  
+}
 
- .img2 { 
-   /* background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-Go-3-CONS-M001-1:VP5-1920x600) center center cover no-repeat fixed;   */
-
-background-image: url("micro_img1.webp");  
- background-size: cover; 
- background-repeat: no-repeat; 
- background-position: center ; 
- background-attachment: fixed;  
- height: 30rem; 
- width: 99%; 
- margin-top: 25px; 
- margin-left: 8px;
-}  
-.button2{
-    height: 30px; 
-    width: 50px; 
-    background-color: rgb(255, 186, 8); 
-    border: none; 
+.nav-links2 li a {
+    text-decoration: none;
     color: black;
-} 
-.button3{
-    height: 35px; 
-    width: 110px; 
-    font-size: medium; 
-    background-color: rgb(0, 120, 212); 
-    border: none; 
-    color: white; 
-    margin-top: 17px;
-} 
-.text3{
-    padding: 140px; 
+    font-size: 15px;
+}
 
-} 
-.text3 h2{
-    margin-top: 12px; 
+/* vabvar end here */
+/* for hero section */
+
+.img2 {
+    /* background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-Go-3-CONS-M001-1:VP5-1920x600) center center cover no-repeat fixed;   */
+
+    background-image: url("micro_img1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 30rem;
+    width: 99%;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.button2 {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 186, 8);
+    border: none;
+    color: black;
+}
+
+.button3 {
+    height: 35px;
+    width: 110px;
+    font-size: medium;
+    background-color: rgb(0, 120, 212);
+    border: none;
+    color: white;
+    margin-top: 17px;
+}
+
+.text3 {
+    padding: 140px;
+
+}
+
+.text3 h2 {
+    margin-top: 12px;
     font-size: 35px;
-} 
-.text3 p{
-margin-top: 15px; 
-font-size: 18px;
-} 
-  
-.box1{
-    display: flex;  
-    justify-content: center; 
+}
+
+.text3 p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;   
+    flex-direction: column;
     margin-bottom: 4rem;
 }
-.container5{
-    display: flex;  
+
+.container5 {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    justify-content:space-evenly; 
-  margin-top: 80px;
-} 
-.container5 a{ 
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.container5 a {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50rem; 
+    margin-top: 50rem;
     color: rgb(0, 120, 212);
-} 
-.container5 div a{
-    margin-top: 50rem; 
+}
 
-}  
+.container5 div a {
+    margin-top: 50rem;
 
-a{
-    color: rgb(0, 120, 212);  
-    font-size:18px; 
-}  
+}
+
+a {
+    color: rgb(0, 120, 212);
+    font-size: 18px;
+}
+
 /* card section start here  */
-.card a{
-    text-decoration: none; 
-    margin-top: 20rem; 
+.card a {
+    text-decoration: none;
+    margin-top: 20rem;
     margin-left: 20px;
-} 
-.card a span{
-    color: rgb(0, 120, 212); 
-    font-size: 23px; 
-   
-} 
+}
+
+.card a span {
+    color: rgb(0, 120, 212);
+    font-size: 23px;
+
+}
 
 .work {
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     justify-content: space-between;
     margin-top: 50rem;
     margin-left: 90px;
@@ -211,15 +241,16 @@ a{
 }
 
 .card {
-    width: 300px; 
+    width: 300px;
     height: 370px;
     /* box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);*/
-    transition: 0.2s ease-in-out; 
-} 
-.image_container img{
-    width: 300px; 
-    max-height: 100%;   
-} 
+    transition: 0.2s ease-in-out;
+}
+
+.image_container img {
+    width: 300px;
+    max-height: 100%;
+}
 
 
 .card:hover {
@@ -233,67 +264,74 @@ a{
 
 .card_content h2 {
     margin-bottom: 10px;
-}  
-/* card section end here */ 
-/* full-image styling start here */ 
-.full_img { 
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP2-859x540");  
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center ;  
-    background-attachment: fixed;  
-    height: 30rem; 
-    width: 88%; 
-    margin-top: 25px; 
-    margin-left: 6%;
-} 
-.img_text{
-    width: 600px; 
-    padding: 90px;
-} 
-.img_text h2{ 
-    font-size: 28px; 
-    font-family: Arial;
-} 
-.img_text p{
-    margin-top: 20px; 
-    font-size: 18px;  
-    color: black;
-} 
-.img_text button{ 
-   height: 35px; 
-    width: 180px; 
-    font-size: medium; 
-    background-color: rgb(0, 120, 212); 
-    border: none; 
-    color: white; 
+}
+
+/* card section end here */
+/* full-image styling start here */
+.full_img {
+    background-image: url("micro_img2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 30rem;
+    width: 88%;
     margin-top: 25px;
-  
-} 
-.card_hadding h1{
-    margin-left: 6%; 
-    margin-top: 6rem; 
-    font-size: 35px; 
+    margin-left: 6%;
+}
+
+.img_text {
+    width: 600px;
+    padding: 90px;
+}
+
+.img_text h2 {
+    font-size: 28px;
     font-family: Arial;
-} 
- 
- 
+}
+
+.img_text p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.img_text button {
+    height: 35px;
+    width: 180px;
+    font-size: medium;
+    background-color: rgb(0, 120, 212);
+    border: none;
+    color: white;
+    margin-top: 25px;
+
+}
+
+.card_hadding h1 {
+    margin-left: 6%;
+    margin-top: 6rem;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+
 /* second  card section start here  */
-.card a{
-    text-decoration: none; 
-    margin-top: 20rem; 
+.card a {
+    text-decoration: none;
+    margin-top: 20rem;
     margin-left: 20px;
-} 
-.card a span{
-    color: rgb(0, 120, 212); 
-    font-size: 23px; 
-   
-} 
+}
+
+.card a span {
+    color: rgb(0, 120, 212);
+    font-size: 23px;
+
+}
 
 .work {
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     justify-content: space-between;
     margin-top: 15px;
     margin-left: 90px;
@@ -308,14 +346,15 @@ a{
 }
 
 .card {
-    width: 300px; 
+    width: 300px;
     height: 400px;
-    transition: 0.2s ease-in-out; 
-} 
-.image_container img{
-    width: 300px; 
-    max-height: 100%;   
-} 
+    transition: 0.2s ease-in-out;
+}
+
+.image_container img {
+    width: 300px;
+    max-height: 100%;
+}
 
 
 .card:hover {
@@ -329,120 +368,139 @@ a{
 
 .card_content h2 {
     margin-bottom: 10px;
-}  
-/* second card section end here */  
-  
-/* background image3 styling start here */
-.full_img3 { 
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Microsoft-Responsible-AI:VP5-1596x600");  
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center ;  
-    background-attachment: fixed;  
-    height: 30rem; 
-    width: 88%; 
-    margin-top: 5rem; 
-    margin-left: 6%; 
-    display: flex;
-}  
- .box9{
-    width: 550px; 
-    height: 20rem; 
-    background-color: #fff; 
-    margin: 100px; 
-    margin-top: 100px;  
-    text-align: left;
- } 
- .box9 h2{
-    margin-top: 3rem; 
-    font-size: 28px; 
- } 
- .box9 p{
-    margin-top: 1.5rem; 
-    font-size: 18px; 
- } 
- .box9 button{
-    margin-top: 2rem;  
-    height: 35px; 
-    width: 22rem; 
-    font-size: medium; 
-    background-color: rgb(0, 120, 212); 
-    border: none; 
-    color: white; 
- } 
- .text4{
-    margin-left: 2.5rem;
- } 
- /* background image3 styling end here */ 
-  
- 
- .social{
-    display: flex; 
-    margin-left: 6%; 
-    margin-top: 7%;
- } 
- .social i{ 
-  margin-left: 2rem;
-   
- } 
- .social p{
-font-size: large; 
+}
 
- }   
- /* for back button */
- .back-button{
-   text-align: right; 
-   margin-right: 1rem;
- }
- .back-button button{
-    height: 30px; 
-    width: 8rem; 
-    font-size: medium; 
-    border: none; 
-    background-color: rgba(0, 0, 0, 0.214);  
+/* second card section end here */
+
+/* background image3 styling start here */
+.full_img3 {
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Microsoft-Responsible-AI:VP5-1596x600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    /* background-attachment: fixed; */
+    height: 30rem;
+    width: 88%;
+    margin-top: 5rem;
+    margin-left: 6%;
+    display: flex;
+}
+
+.box9 {
+    width: 550px;
+    height: 20rem;
+    background-color: #fff;
+    margin: 100px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.box9 h2 {
+    margin-top: 3rem;
+    font-size: 28px;
+}
+
+.box9 p {
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.box9 button {
+    margin-top: 2rem;
+    height: 35px;
+    width: 22rem;
+    font-size: medium;
+    background-color: rgb(0, 120, 212);
+    border: none;
+    color: white;
+}
+
+.text4 {
+    margin-left: 2.5rem;
+}
+
+/* background image3 styling end here */
+
+
+.social {
+    display: flex;
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+.social i {
+    margin-left: 2rem;
+
+}
+
+.social p {
+    font-size: large;
+
+}
+
+/* for back button */
+.back-button {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.back-button button {
+    height: 30px;
+    width: 8rem;
+    font-size: medium;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.214);
     color: black;
- }  
-  
- /* for footer */  
-footer{
+}
+
+/* for footer */
+footer {
     margin-top: 15px;
 }
-.foot-panel1{
-  background-color:rgb(242, 242, 242);  
-  color: white;  
-  height: 50px; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  font-size: 0.85rem;
-} 
-/* for  footer panel2 */ 
-.foot-panel2{  
-    margin-top: 3rem;
-    display: flex; 
-    justify-content:space-evenly ;
-    background-color:rgb(242, 242, 242); 
-    color: black; 
-    height: 500px; 
-}  
-.foot-panel2 p{
-    color: #1b1919b9; 
-    font-weight: 800; 
-    font-size: 18px;
-}  
-.foot-panel2 p:hover{
-    border-bottom:2px solid #1b1919b9 ;
+
+.foot-panel1 {
+    background-color: rgb(242, 242, 242);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
 }
-.foot-panel2 ul{
+
+/* for  footer panel2 */
+.foot-panel2 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    height: 500px;
+}
+
+.foot-panel2 p {
+    color: #1b1919b9;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.foot-panel2 p:hover {
+    border-bottom: 2px solid #1b1919b9;
+}
+
+.foot-panel2 ul {
     margin-top: 40px;
 }
-.foot-panel2 ul a{
-    display: block; 
-    font-size: 0.85rem; 
-    margin-top: 10px; 
-    color:rgba(0, 0, 0, 0.643); 
-    line-height: 2rem;   
-} 
-.foot-panel2 ul a:hover{
- border-bottom: thin solid rgba(0, 0, 0, 0.643);
-} 
+
+.foot-panel2 ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.643);
+    line-height: 2rem;
+}
+
+.foot-panel2 ul a:hover {
+    border-bottom: thin solid rgba(0, 0, 0, 0.643);
+}

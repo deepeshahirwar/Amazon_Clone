@@ -184,13 +184,9 @@ justify-content: space-around;
     justify-content: center; 
     align-items: center;
   }  
-  /* img{
-   margin-left:5rem ; 
-   margin-top: 4rem;
-  } */
+  
   .aboutme{
-  text-align: center; 
-  /* margin-left: 20rem; */ 
+  text-align: center;  
   padding-left: 35%; 
 
   }

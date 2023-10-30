@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}  
+body{
+    background-color: rgb(255, 255, 255);
+}
+ /* navbar styling start here  */
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-between; 
+    
+    margin-top: 1rem; 
+    margin-left: 5rem; 
+    margin-right: 5rem;
+} 
+.features {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-between
+
+} 
+.features li{
+    margin-left: 5rem;
+    text-decoration: none; 
+    font-size: 16px;  
+    list-style-type:none;
+    
+}  
+ li:hover{
+    border-bottom: 4px solid black;   
+ }
+.logo{
+    font-size: 32px; 
+    font-weight: 900;  
+}  
+/* navbar styling end here  */ 
+ 
+/* hero section styling start here  */ 
+.hero{ 
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 50rem;
+    background-color:black;
+} 
+.aboutBR{
+    font-size: 53px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 900; 
+    color: white; 
+    padding-top: 7rem; 
+    padding-left: 5rem;
+} 
+.textandVedio{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+
+    padding-top: 7rem;
+
+} 
+.text1{
+    color: white; 
+    margin-left: 5rem;
+    margin-right: 11rem; 
+    line-height: 1.5rem;
+} 
+.img1 img{
+    margin-right: 10rem; 
+    height: 20rem;
+} 
+.transcript{
+    color: white; 
+    text-align: center; 
+    margin-left: 10rem; 
+    margin-top: 0.4rem; 
+    font-size: small; 
+    font-weight: bold;
+} 
+.heroButtom{
+    margin-top: 7.5rem; 
+    margin-left: 5rem;
+} 
+.heroButtom div{ 
+    color: white; 
+    display: inline;
+     margin-left: 2rem; 
+     font-size: 14px;
+}  
+/* hero section styling end here  */ 
+ 
+.container2 div{
+    margin-top:2.5rem; 
+    margin-left: 5rem;
+}  
+.text{
+    width: 50%; 
+    color: black; 
+    font-weight: 800; 
+    font-size: larger;
+}
+.line{ 
+    width: 50%;
+    border-bottom: 3px solid black;
+} 
+.focus{
+    font-size: xx-large; 
+    font-weight: 700;
+    color: black;  
+}  
+ 
+/* card1 styling */
+.container3{
+    margin-top: 5rem;
+} 
+.card1{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-between;  
+    margin-top: 3rem; 
+} 
+.text2{
+    margin-right: 5rem;
+    width: 35%;
+} 
+.text2 h1{
+  font-weight: 900; 
+  font-size: 38px;
+}  
+.text2 h4{
+    font-weight: 800;  
+}
+.text2 p,h4{
+  margin-top: 1.5rem;
+} 
+.text2 p{
+  line-height: 1.4rem;
+}
+ 
+/* card2 styling */
+
+
+.text3{
+    margin-left: 5rem;
+    width: 35%;
+} 
+.text3 h1{
+  font-weight: 900; 
+  font-size: 38px;
+}  
+.text3 h4{
+    font-weight: 800;  
+}
+.text3 p,h4{
+  margin-top: 1.5rem;
+} 
+.text3 p{
+  line-height: 1.4rem;
+}
+   
+/* Who we are section styling  start*/
+.container4{
+    margin-top: 3rem; 
+    margin-left: 5rem; 
+    
+}
+.container5{ 
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 3rem; 
+    margin-left: 5rem; 
+    margin-right: 9rem;
+}  
+
+.people{
+    margin-top: 1rem;   
+}
+.people img{
+    height: 7.5rem; 
+   
+}
+.people img,h2,p{
+    margin-top: 1.3rem;
+} 
+
+ 
+.container6{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 7rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+}  
+.card_img img{
+    height: 25rem; 
+    width: 40rem;
+} 
+.text6{
+     margin-left: 7rem; 
+     line-height: 1.5rem;
+}  
+.transcript2{
+    color: black;  
+    margin-left: 6rem; 
+    margin-top: 2px; 
+    font-size: 14px; 
+    font-weight: bold;
+
+} 
+.line2{
+    margin-top: 3rem;  
+    margin-left: 5rem;
+    padding-bottom: 5rem; 
+    width: 43rem;
+    border-top: 1px solid black;
+}  
+/* Who we are section styling  end*/
+
+
+
+

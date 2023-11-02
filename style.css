@@ -1,235 +1,418 @@
-*{
+* {
     padding: 0;
-    margin: 0; 
-    box-sizing: border-box; 
+    margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}  
-body{
+}
+
+body {
     background-color: rgb(255, 255, 255);
 }
- /* navbar styling start here  */
-.container1{
+
+/* navbar styling start here  */
+.container1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; 
-    justify-content: space-between; 
-    
-    margin-top: 1rem; 
-    margin-left: 5rem; 
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 1rem;
+    margin-left: 5rem;
     margin-right: 5rem;
-} 
+}
+
 .features {
-    
-    display: flex; 
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between
+}
 
-} 
-.features li{
+.features li {
     margin-left: 5rem;
-    text-decoration: none; 
-    font-size: 16px;  
-    list-style-type:none;
-    
-}  
- li:hover{
-    border-bottom: 4px solid black;   
- }
-.logo{
-    font-size: 32px; 
-    font-weight: 900;  
-}  
-/* navbar styling end here  */ 
- 
-/* hero section styling start here  */ 
-.hero{ 
+    text-decoration: none;
+    font-size: 16px;
+    list-style-type: none;
+
+}
+
+li:hover {
+    border-bottom: 4px solid black;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+/* navbar styling end here  */
+
+/* hero section styling start here  */
+.hero {
     margin-top: 0.2rem;
     width: 100%;
     height: 50rem;
-    background-color:black;
-} 
-.aboutBR{
-    font-size: 53px; 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-weight: 900; 
-    color: white; 
-    padding-top: 7rem; 
+    background-color: black;
+}
+
+.aboutBR {
+    font-size: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 7rem;
     padding-left: 5rem;
-} 
-.textandVedio{
-    display: flex; 
+}
+
+.textandVedio {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; 
-    justify-content: space-evenly; 
+    flex-direction: row;
+    justify-content: space-evenly;
 
     padding-top: 7rem;
 
-} 
-.text1{
-    color: white; 
+}
+
+.text1 {
+    color: white;
     margin-left: 5rem;
-    margin-right: 11rem; 
+    margin-right: 11rem;
     line-height: 1.5rem;
-} 
-.img1 img{
-    margin-right: 10rem; 
+}
+
+.img1 img {
+    margin-right: 10rem;
     height: 20rem;
-} 
-.transcript{
-    color: white; 
-    text-align: center; 
-    margin-left: 10rem; 
-    margin-top: 0.4rem; 
-    font-size: small; 
+}
+
+.transcript {
+    color: white;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 0.4rem;
+    font-size: small;
     font-weight: bold;
-} 
-.heroButtom{
-    margin-top: 7.5rem; 
+}
+
+.heroButtom {
+    margin-top: 7.5rem;
     margin-left: 5rem;
-} 
-.heroButtom div{ 
-    color: white; 
+}
+
+.heroButtom div {
+    color: white;
     display: inline;
-     margin-left: 2rem; 
-     font-size: 14px;
-}  
-/* hero section styling end here  */ 
- 
-.container2 div{
-    margin-top:2.5rem; 
+    margin-left: 2rem;
+    font-size: 14px;
+}
+
+/* hero section styling end here  */
+
+.container2 div {
+    margin-top: 2.5rem;
     margin-left: 5rem;
-}  
-.text{
-    width: 50%; 
-    color: black; 
-    font-weight: 800; 
+}
+
+.text {
+    width: 50%;
+    color: black;
+    font-weight: 800;
     font-size: larger;
 }
-.line{ 
+
+.line {
     width: 50%;
     border-bottom: 3px solid black;
-} 
-.focus{
-    font-size: xx-large; 
+}
+
+.focus {
+    font-size: xx-large;
     font-weight: 700;
-    color: black;  
-}  
- 
+    color: black;
+}
+
 /* card1 styling */
-.container3{
+.container3 {
     margin-top: 5rem;
-} 
-.card1{ 
-    display: flex; 
+}
+
+.card1 {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; 
-    justify-content: space-between;  
-    margin-top: 3rem; 
-} 
-.text2{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.text2 {
     margin-right: 5rem;
     width: 35%;
-} 
-.text2 h1{
-  font-weight: 900; 
-  font-size: 38px;
-}  
-.text2 h4{
-    font-weight: 800;  
 }
-.text2 p,h4{
-  margin-top: 1.5rem;
-} 
-.text2 p{
-  line-height: 1.4rem;
+
+.text2 h1 {
+    font-weight: 900;
+    font-size: 38px;
 }
- 
+
+.text2 h4 {
+    font-weight: 800;
+}
+
+.text2 p,
+h4 {
+    margin-top: 1.5rem;
+}
+
+.text2 p {
+    line-height: 1.4rem;
+}
+
 /* card2 styling */
 
 
-.text3{
+.text3 {
     margin-left: 5rem;
     width: 35%;
-} 
-.text3 h1{
-  font-weight: 900; 
-  font-size: 38px;
-}  
-.text3 h4{
-    font-weight: 800;  
 }
-.text3 p,h4{
-  margin-top: 1.5rem;
-} 
-.text3 p{
-  line-height: 1.4rem;
+
+.text3 h1 {
+    font-weight: 900;
+    font-size: 38px;
 }
-   
+
+.text3 h4 {
+    font-weight: 800;
+}
+
+.text3 p,
+h4 {
+    margin-top: 1.5rem;
+}
+
+.text3 p {
+    line-height: 1.4rem;
+}
+
 /* Who we are section styling  start*/
-.container4{
-    margin-top: 3rem; 
-    margin-left: 5rem; 
-    
+.container4 {
+    margin-top: 3rem;
+    margin-left: 5rem;
+
 }
-.container5{ 
-    display: flex;  
+
+.container5 {
+    display: flex;
     justify-content: space-between;
-    margin-top: 3rem; 
-    margin-left: 5rem; 
+    margin-top: 3rem;
+    margin-left: 5rem;
     margin-right: 9rem;
-}  
+}
 
-.people{
-    margin-top: 1rem;   
+.people {
+    margin-top: 1rem;
 }
-.people img{
-    height: 7.5rem; 
-   
+
+.people img {
+    height: 7.5rem;
+
 }
-.people img,h2,p{
+
+.people img,
+h2,
+p {
     margin-top: 1.3rem;
-} 
+}
 
- 
-.container6{ 
-    display: flex; 
+
+.container6 {
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
-    margin-top: 7rem; 
+    margin-top: 7rem;
     margin-left: 5rem;
     margin-right: 5rem;
-}  
-.card_img img{
-    height: 25rem; 
+}
+
+.card_img img {
+    height: 25rem;
     width: 40rem;
-} 
-.text6{
-     margin-left: 7rem; 
-     line-height: 1.5rem;
-}  
-.transcript2{
-    color: black;  
-    margin-left: 6rem; 
-    margin-top: 2px; 
-    font-size: 14px; 
+}
+
+.text6 {
+    margin-left: 7rem;
+    line-height: 1.5rem;
+}
+
+.transcript2 {
+    color: black;
+    margin-left: 6rem;
+    margin-top: 2px;
+    font-size: 14px;
     font-weight: bold;
 
-} 
-.line2{
-    margin-top: 3rem;  
+}
+
+.line2 {
+    margin-top: 3rem;
     margin-left: 5rem;
-    padding-bottom: 5rem; 
+    padding-bottom: 5rem;
     width: 43rem;
     border-top: 1px solid black;
-}  
+}
+
 /* Who we are section styling  end*/
 
+/* Who we serve styling start here */
+.container7 {
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
 
+.container7 h1 {
+    font-weight: 900;
+}
 
+.about {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
 
+.about div {
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.about div p {
+    line-height: 1.5rem;
+}
+
+.about div h3 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.about div:hover {
+    border-bottom: 3px solid black;
+}
+
+/* Who we serve styling end here */
+
+/* footer section styling start here */
+footer {
+    margin-top: 4rem;
+    background-color: black;
+    height: 7rem;
+    width: 100%;
+}
+
+.explore {
+    padding-top: 0.5rem;
+}
+
+.explore_text {
+    color: aliceblue;
+    text-align: center;
+    font-weight: 900;
+}
+
+.explore h3 {
+    margin-top: 3px;
+}
+
+/* footer2 styling start here */
+.footer2 {
+    width: 100%;
+    height: 34rem;
+    background-color: rgb(22, 22, 22);
+}
+
+.footer2 h1 {
+    margin-left: 5rem;
+    color: white;
+    padding-top: 3rem;
+}
+
+.container8 {
+    margin-left: 5rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 3rem;
+}
+
+.box1 h3 {
+    color: white;
+}
+
+.box1 ul li {
+    list-style: none;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 14px;
+}
+
+.box1 p {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.673);
+}
+
+.box1 ul {
+    margin-top: 1rem;
+}
+
+/* footer2 styling end here */ 
+  
+/* for foorter3 styling  */
+.footer3{
+    background-color: rgb(0, 0, 0); 
+    height: 32rem;
+} 
+.container9{
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between; 
+    margin-left: 5rem; 
+    margin-right: 5rem; 
+    padding-top:7rem ;
+} 
+ 
+.part1{
+ color: white; 
+ width: 30rem; 
+ 
+}  
+.part1 h1{
+    font-size: 60px;
+}
+.part1 p{
+    line-height: 1.5rem; 
+    font-size: 18px; 
+    color: rgba(251, 248, 248, 0.831); 
+} 
+.part2{
+    color: white; 
+    border-left: 2px solid white; 
+   
+}  
+.part3 ul li{
+   list-style: none; 
+   line-height: 2rem; 
+   color: white; 
+   font-weight: 900;
+   font-size: 16px;
+}  
+.part3 ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+.part3 h3{
+     color: rgb(255, 69, 21); 
+     font-size: 16px;
+}
